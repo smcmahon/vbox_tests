@@ -1,1 +1,1 @@
-./install.sh standalone --static-lxml
+./install.sh standalone --build-python --static-lxml
