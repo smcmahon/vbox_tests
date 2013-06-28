@@ -16,10 +16,6 @@ class packages {
     ensure => present,
   }
 
-  package { "libxslt-devel":
-    ensure => present,
-  }
-
   package { "readline-devel":
     ensure => present,
   }
