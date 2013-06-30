@@ -1,7 +1,7 @@
 #!/bin/sh
 
 CWD=`pwd`
-for vb in vb_*; do
+for vb in whe*; do
     echo $vb
     cd $vb
     ln ../*.tgz .
@@ -17,3 +17,4 @@ for vb in vb_*; do
     rm test_install.sh
     cd $CWD
 done
+cat vb_*/results.log > results.log
